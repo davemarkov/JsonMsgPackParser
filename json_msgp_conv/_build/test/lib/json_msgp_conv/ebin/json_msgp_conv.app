@@ -1,0 +1,11 @@
+{application,json_msgp_conv,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"json_msgp_conv"},
+              {modules,['Elixir.Json','Elixir.Json.ErrorHandler',
+                        'Elixir.JsonMsgpConv','Elixir.JsonMsgpConv.Parser',
+                        'Elixir.JsonMsgpConv.Parser.Supervisor',
+                        'Elixir.MsgPack','Elixir.MsgPack.ErrorHandle',
+                        'Elixir.StructFormat']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
